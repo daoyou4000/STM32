@@ -1,7 +1,11 @@
 ## Description
 DMA is used to data transaction bewtween RAM and peripherials. 
 There are 12 channels in total in support of "Memory to Memory", "P to P" and "P to M" data transmission in STM32F103Z.
-###4 priority level are implemented.
+
+DMA applies on the scenario that CPU needs to handle volume of data which is able to release the computation ability.
+
+
+### 4 priority level are implemented.
 - very high
 - High
 - medium
@@ -11,3 +15,4 @@ There are 12 channels in total in support of "Memory to Memory", "P to P" and "P
 - DMA_CMARx   This is used to set the destination memory address(设置数据目的地址)
 - DMA_CCRx    It is used to implemented the data trasmission direction.
 - DMA_CNDTRx  
+### UART and DMA
